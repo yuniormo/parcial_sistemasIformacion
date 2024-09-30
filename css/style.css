@@ -1,0 +1,114 @@
+body{
+    margin: 0;
+    background:linear-gradient(to botton, #2088c3, #8ac3e1);
+}
+.encabezado{
+  
+    background-image: url(/img/encabezado.jpg); 
+    background-size: 2100px 300px;
+    font-size: 15px;
+    text-align: center;
+    padding: 40px 0;
+    color: white;
+
+}
+h1{
+    font-size: 50px;
+    color: white;
+}
+.titulo2{
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 31px;
+    font-size: 28px;
+}
+.menu{
+    background:linear-gradient(to botton, #2088c3, #8ac3e1);
+    padding-top: 1px;
+    padding-bottom: 12px;
+    background-color: #2d8bc2;
+}
+.container{
+    display: flex;
+    padding-bottom: 0px;
+    justify-content: center;
+    margin-right: 60px;
+   
+
+}
+.container2{
+    display: flex;
+    padding-bottom: 55px;
+    justify-content: center;
+    margin-right: 288px;
+   
+
+}
+.caja{
+    
+    padding-right: 60px;
+    margin-right: 1px;
+    margin-left: 0px;
+    margin-top: 35px;
+    padding-bottom: 10px;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 6px;
+}
+.caja1{
+    padding-right: 60px;
+    margin-right: 1px;
+    margin-left: 0px;
+    margin-top: 0px;
+    padding-bottom: 10px;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 6px;
+
+}
+.caja2{
+    padding-right: 60px;
+    margin-right: 1px;
+    margin-left: 229px;
+    margin-top: 0px;
+    padding-bottom: 10px;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 6px;
+
+}
+.enlace{
+    text-align: center;
+    padding-left: 939px;
+    font-size: 40px;
+    color: white;
+    text-decoration: none;
+}
+.pie{
+    background-color:#203e49;
+    color: white;
+    text-align: center;
+    padding: 0.5px;
+    margin-top: 1px;
+    margin-bottom: 0px;
+    font-size: 25px;
+    align-items: center;
+
+}
+.pie.style{
+max-width: 1200px;
+}
+.imagen{
+    border-radius: 20px;
+}
+@media screen and (max-width:768px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .imagen{
+        width: 100%;
+        height: auto;
+    }
+    
+}
